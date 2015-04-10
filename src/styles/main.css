@@ -1,0 +1,23 @@
+/* Stiziles */
+
+html, body {
+  background: #222222;
+  margin: 50px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: x-large;
+}
+.active .btn {
+  font-weight: bold;
+}
+.active .btn-hot {
+  color: green;
+  box-shadow: 0px 0px 40px 20px green;
+}
+.active .btn-not {
+  color: red;
+  box-shadow: 0px 0px 40px 20px red;
+}
